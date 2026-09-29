@@ -1374,7 +1374,7 @@ toos:AddSwitch("Auto Equip Squat 75kg", function(state)
 end)
 
 -- Create Tab within the Window
-local eggtab = window:AddTab("Pet Shop")
+local eggtab = window:AddTab("Auto Hatch Eggs")
 
 -- Global Environment Setup
 getgenv().AutoBuyPet = false
@@ -3962,9 +3962,9 @@ features:AddLabel("BLACKLISTED PLAYERS 👇")
 features:AddLabel("Maitre_eyuns, Maitre 22222, Mhar, QUERUB3N, NSP_Jekk, Yuki, TAKEME356")
 
 features:AddLabel("")
-local wLabel = features:AddLabel("KENZOU PUBLIC VERSION")
+local wLabel = features:AddLabel("M14EBR | PUBLIC VERSION")
 wLabel.TextSize = 40
-wLabel.Font = Enum.Font.Bodoni
+wLabel.Font = Enum.Font.LuckiestGuy
 
 game:GetService("StarterGui"):SetCore("SendNotification", {
     Title = "Public Script Executed!",
