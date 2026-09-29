@@ -1378,7 +1378,7 @@ local eggtab = window:AddTab("Auto Hatch Eggs")
 
 -- Global Environment Setup
 getgenv().AutoBuyPet = false
-getgenv().SelectedPetRarity = "Common" -- Default selected rarity
+getgenv().SelectedPetRarity = "common" -- Default selected rarity
 
 -- Services
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
@@ -1403,13 +1403,13 @@ local petDropdown = eggtab:AddDropdown("Select Egg", function(selected)
 end)
 
 -- 2. Add each option manually using the official Elerium syntax
-petDropdown:Add("Common")
-petDropdown:Add("Uncommon")
-petDropdown:Add("Rare")
-petDropdown:Add("Epic")
-petDropdown:Add("Mythic")
-petDropdown:Add("Master")
-petDropdown:Add("Titan")
+petDropdown:Add("common")
+petDropdown:Add("uncommon")
+petDropdown:Add("rare")
+petDropdown:Add("epic")
+petDropdown:Add("mythic")
+petDropdown:Add("master")
+petDropdown:Add("titan")
 
 -- Switch to toggle the actual auto-buyer loop
 eggtab:AddSwitch("Auto Buy Selected Egg", function(bool)
